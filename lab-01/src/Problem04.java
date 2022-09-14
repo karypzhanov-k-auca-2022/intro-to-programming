@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class Problem04 {
     public static void main(String[] args) {
-        int firstNumber = 5;
-        int secondNumber = 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("1st int? ");
+        int firstNumber = scanner.nextInt();
+        System.out.print("2nd int? ");
+        int secondNumber = scanner.nextInt();
         int plusFirstAndSecond = firstNumber + secondNumber;
         int minesFirstAndSecond = firstNumber - secondNumber;
         int multiplyFirstAndSecond = firstNumber * secondNumber;

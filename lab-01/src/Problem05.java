@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class Problem05 {
     public static void main(String[] args) {
-        double a = 5.1;
-        double b = 2.6;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("1st double? ");
+        double a = sc.nextDouble();
+        System.out.print("2nd double? ");
+        double b = sc.nextDouble();
         double plusAb = a + b;
         double minesAb = a - b;
         double multiplyAb = a * b;
