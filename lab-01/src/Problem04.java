@@ -14,9 +14,9 @@ public class Problem04 {
         int residueOfFirstAndSecond = firstNumber % secondNumber;
 
         System.out.println(firstNumber + " + " + secondNumber + " = " + plusFirstAndSecond);
-        System.out.println(firstNumber + " + " + secondNumber + " = " + minesFirstAndSecond);
-        System.out.println(firstNumber + " + " + secondNumber + " = " + multiplyFirstAndSecond);
-        System.out.println(firstNumber + " + " + secondNumber + " = " + divideFirstAndSecond);
-        System.out.println(firstNumber + " + " + secondNumber + " = " + residueOfFirstAndSecond);
+        System.out.println(firstNumber + " - " + secondNumber + " = " + minesFirstAndSecond);
+        System.out.println(firstNumber + " * " + secondNumber + " = " + multiplyFirstAndSecond);
+        System.out.println(firstNumber + " / " + secondNumber + " = " + divideFirstAndSecond);
+        System.out.println(firstNumber + " % " + secondNumber + " = " + residueOfFirstAndSecond);
     }
 }
