@@ -7,15 +7,15 @@ public class Problem04 {
         int firstNumber = scanner.nextInt();
         System.out.print("2nd int? ");
         int secondNumber = scanner.nextInt();
-        int plusFirstAndSecond = firstNumber + secondNumber;
-        int minesFirstAndSecond = firstNumber - secondNumber;
-        int multiplyFirstAndSecond = firstNumber * secondNumber;
-        int divideFirstAndSecond = firstNumber / secondNumber;
-        int residueOfFirstAndSecond = firstNumber % secondNumber;
-        System.out.println(firstNumber + " + " + secondNumber + " = " + plusFirstAndSecond);
-        System.out.println(firstNumber + " - " + secondNumber + " = " + minesFirstAndSecond);
-        System.out.println(firstNumber + " * " + secondNumber + " = " + multiplyFirstAndSecond);
-        System.out.println(firstNumber + " / " + secondNumber + " = " + divideFirstAndSecond);
-        System.out.println(firstNumber + " % " + secondNumber + " = " + residueOfFirstAndSecond);
+        int plus = firstNumber + secondNumber;
+        int mines = firstNumber - secondNumber;
+        int multiply = firstNumber * secondNumber;
+        int divide = firstNumber / secondNumber;
+        int residue = firstNumber % secondNumber;
+        System.out.println(firstNumber + " + " + secondNumber + " = " + plus);
+        System.out.println(firstNumber + " - " + secondNumber + " = " + mines);
+        System.out.println(firstNumber + " * " + secondNumber + " = " + multiply);
+        System.out.println(firstNumber + " / " + secondNumber + " = " + divide);
+        System.out.println(firstNumber + " % " + secondNumber + " = " + residue);
     }
 }
