@@ -12,7 +12,6 @@ public class Problem04 {
         int multiplyFirstAndSecond = firstNumber * secondNumber;
         int divideFirstAndSecond = firstNumber / secondNumber;
         int residueOfFirstAndSecond = firstNumber % secondNumber;
-
         System.out.println(firstNumber + " + " + secondNumber + " = " + plusFirstAndSecond);
         System.out.println(firstNumber + " - " + secondNumber + " = " + minesFirstAndSecond);
         System.out.println(firstNumber + " * " + secondNumber + " = " + multiplyFirstAndSecond);
