@@ -10,12 +10,12 @@ public class Problem04 {
         int plus = firstNumber + secondNumber;
         int mines = firstNumber - secondNumber;
         int multiply = firstNumber * secondNumber;
-        int divide = firstNumber / secondNumber;
+        int div = firstNumber / secondNumber;
         int residue = firstNumber % secondNumber;
         System.out.println(firstNumber + " + " + secondNumber + " = " + plus);
         System.out.println(firstNumber + " - " + secondNumber + " = " + mines);
         System.out.println(firstNumber + " * " + secondNumber + " = " + multiply);
-        System.out.println(firstNumber + " / " + secondNumber + " = " + divide);
+        System.out.println(firstNumber + " / " + secondNumber + " = " + div);
         System.out.println(firstNumber + " % " + secondNumber + " = " + residue);
     }
 }

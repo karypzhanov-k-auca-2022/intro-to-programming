@@ -10,12 +10,12 @@ public class Problem05 {
         double plus = a + b;
         double mines = a - b;
         double multiply = a * b;
-        double divide = a / b;
+        double div = a / b;
         double residue = a % b;
         System.out.println(a + " + " + b + " = " + plus);
         System.out.println(a + " - " + b + " = " + mines);
         System.out.println(a + " * " + b + " = " + multiply);
-        System.out.println(a + " / " + b + " = " + divide);
+        System.out.println(a + " / " + b + " = " + div);
         System.out.println(a + " % " + b + " = " + residue);
 
     }
