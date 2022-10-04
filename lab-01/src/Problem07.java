@@ -4,7 +4,7 @@ public class Problem07 {
         for (int i = 1; i <= 3; i++) {
             System.out.printf("%d    %d     %d%n", i, i * i, i * i * i);
         }
-        System.out.println(4 + "    " + 4*4 + "    " + 4 * 16);
+        System.out.println(4 + "    " + 4 * 4 + "    " + 4 * 16);
     }
 }
 
