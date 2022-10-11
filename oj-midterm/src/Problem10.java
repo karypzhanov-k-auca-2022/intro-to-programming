@@ -8,7 +8,6 @@ public class Problem10 {
         int v = scanner.nextInt();
 
         double t = (2.0 / 9.8) * v;
-
         System.out.printf("%.6f%n", t);
     }
 }
