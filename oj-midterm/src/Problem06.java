@@ -6,8 +6,10 @@ public class Problem06 {
         int lengthOfClass = scanner.nextInt();
         int widthOfClass = scanner.nextInt();
         int squareSide = scanner.nextInt();
+
         int numberOfTilesInLength = lengthOfClass / squareSide;
         int numberOfTilesInWidth = widthOfClass / squareSide;
+
         System.out.println(numberOfTilesInLength * numberOfTilesInWidth);
     }
 }
