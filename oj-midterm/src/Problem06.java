@@ -9,7 +9,6 @@ public class Problem06 {
 
         int numberOfTilesInLength = lengthOfClass / squareSide;
         int numberOfTilesInWidth = widthOfClass / squareSide;
-
         System.out.println(numberOfTilesInLength * numberOfTilesInWidth);
     }
 }

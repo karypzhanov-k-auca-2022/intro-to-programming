@@ -6,7 +6,6 @@ public class Problem10 {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
         int v = scanner.nextInt();
-
         double t = (2.0 / 9.8) * v;
         System.out.printf("%.6f%n", t);
     }

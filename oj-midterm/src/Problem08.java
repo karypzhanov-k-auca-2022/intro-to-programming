@@ -6,9 +6,7 @@ public class Problem08 {
         int n = scanner.nextInt();
         int t = scanner.nextInt();
         int m = scanner.nextInt();
-
         int designWays = n * t * m;
-
         System.out.println(designWays);
     }
 }
