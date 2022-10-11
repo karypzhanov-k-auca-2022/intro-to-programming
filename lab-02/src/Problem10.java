@@ -8,9 +8,11 @@ public class Problem10 {
         double oneImmigrant = 45.0;
         double currentPopulation = 312032486;
         double secondsInOneYear = 60 * 60 * 24 * 365;
+
         double births = secondsInOneYear / oneBirth;
         double deaths = secondsInOneYear / oneDeath;
         double immigrants = secondsInOneYear / oneImmigrant;
+
         System.out.print("Enter the number of years: ");
         int year = scanner.nextInt();
         double d = Math.round(currentPopulation + ((births + immigrants - deaths) * year));

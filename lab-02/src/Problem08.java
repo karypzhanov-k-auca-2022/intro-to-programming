@@ -7,6 +7,6 @@ public class Problem08 {
         System.out.print("Enter a number in pounds: ");
         double p = scanner.nextDouble();
         double kilograms = p * poundInKilograms;
-        System.out.printf("%.1f pounds is %.3f kilograms ", p, kilograms);
+        System.out.printf("%.1f pounds is %.3f kilograms%n", p, kilograms);
     }
 }
