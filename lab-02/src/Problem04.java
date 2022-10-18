@@ -13,5 +13,4 @@ public class Problem04 {
         double result = a * oneApp;
         System.out.printf("%d in. = %.2f cm.%n", a, result);
     }
-
 }

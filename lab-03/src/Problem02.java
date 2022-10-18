@@ -14,5 +14,4 @@ public class Problem02 {
             System.out.println("You can take it again in the fall semester next year.");
         }
     }
-
 }
