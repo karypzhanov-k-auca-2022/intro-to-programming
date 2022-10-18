@@ -21,6 +21,7 @@ public class Problem03 {
         System.out.println("The sum of all digits is " + sumOfDigits);
         scanner.close();
     }
+
 }
 //        while ( > 0) {
 //             =  % 10;

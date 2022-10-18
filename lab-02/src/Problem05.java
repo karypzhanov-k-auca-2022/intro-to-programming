@@ -11,4 +11,5 @@ public class Problem05 {
         double celsius = 5.0 / 9 * (f - 32);
         System.out.printf("The temperature in degrees Celsius is %.2f%n", celsius);
     }
+
 }

@@ -15,4 +15,5 @@ public class Problem01 {
             System.out.printf("|%.4f| = %.4f%n", realNumber, realNumber);
         }
     }
+
 }
