@@ -1,7 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Problem06 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
@@ -26,7 +25,7 @@ public class Problem06 {
 
             System.out.printf("The equation has one root %.4f%n", x);
         } else {
-            System.out.print("The equation has no real roots");
+            System.out.println("The equation has no real roots");
         }
     }
 }
