@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Problem31 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int month = scanner.nextInt();

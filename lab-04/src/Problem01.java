@@ -2,7 +2,6 @@ import java.util.Locale;
 
 public class Problem01 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
 
         double d = 0.1;
