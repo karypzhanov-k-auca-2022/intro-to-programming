@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class Problem10 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
         double oneBirth = 7.0;
         double oneDeath = 13.0;
         double oneImmigrant = 45.0;

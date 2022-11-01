@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Problem05 {
     public static void main(String[] args) {
+
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +20,7 @@ public class Problem05 {
             System.out.println("Grade: C");
         } else if (60 <= points) {
             System.out.println("Grade: D");
-        } else if (0 <= points) {
+        } else if ( 0 <= points) {
             System.out.println("Grade: F");
         }
     }

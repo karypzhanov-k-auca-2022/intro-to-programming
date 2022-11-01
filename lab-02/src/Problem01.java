@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Problem01 {
     public static void main(String[] args) {
+
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("1st value? ");
         int a = scanner1.nextInt();
