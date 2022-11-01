@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Problem03 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("A four-digit integer? ");
         int n = scanner.nextInt(); // 1237
         int sumOfDigits = 0;

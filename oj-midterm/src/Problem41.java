@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Problem41 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int team1 = 0;
@@ -24,5 +22,4 @@ public class Problem41 {
             System.out.println("T");
         }
     }
-
 }

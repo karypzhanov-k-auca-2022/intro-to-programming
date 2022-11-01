@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Problem23 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         int minutesInHour = 60;
         int clockMinutes = 45;

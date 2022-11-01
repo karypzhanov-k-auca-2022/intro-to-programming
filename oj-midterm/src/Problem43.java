@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Problem43 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         String code = scanner.next();
@@ -31,5 +29,4 @@ public class Problem43 {
                 System.out.println("invalid code");
         }
     }
-
 }

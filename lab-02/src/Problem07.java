@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Problem07 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter the radius and length of a cylinder: ");
         double r = scanner.nextDouble();
         double l = scanner.nextDouble();

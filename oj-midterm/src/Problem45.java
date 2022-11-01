@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Problem45 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int startFirstClip = scanner.nextInt();
@@ -15,5 +13,4 @@ public class Problem45 {
         System.out.println(endFirstClip <= startSecondClip ||
                 endSecondClip <= startFirstClip ? "NO" : "YES");
     }
-
 }

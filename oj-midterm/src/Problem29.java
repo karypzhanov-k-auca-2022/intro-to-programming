@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Problem29 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int bowl1 = scanner.nextInt();

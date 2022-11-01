@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Problem48 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int firstAgentX = scanner.nextInt();
@@ -21,5 +19,4 @@ public class Problem48 {
             System.out.println("No");
         }
     }
-
 }

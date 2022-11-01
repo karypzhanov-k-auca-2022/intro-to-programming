@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Problem35 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int limit = scanner.nextInt();
@@ -22,5 +20,4 @@ public class Problem35 {
             System.out.println("Congratulations, you are within the speed limit!");
         }
     }
-
 }

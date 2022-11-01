@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class Problem46 {
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int buyingPower = 0;
@@ -35,5 +33,4 @@ public class Problem46 {
                 + (maxVictoryCard.length() * maxTreasureCard.length() > 0 ? " or " : "")
                 + maxTreasureCard);
     }
-
 }

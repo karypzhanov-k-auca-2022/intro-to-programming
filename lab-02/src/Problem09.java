@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Problem09 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter the number of minutes: ");
         int minutes = scanner.nextInt();
 
