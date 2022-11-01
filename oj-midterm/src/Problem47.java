@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Problem47 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         int firstVertexX = scanner.nextInt();

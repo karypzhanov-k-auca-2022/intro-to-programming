@@ -1,6 +1,7 @@
 public class Problem10 {
     public static void main(String[] args) {
 
+
         double oneBirth = 7.0;
         double oneDeath = 13.0;
         double oneImmigrant = 45.0;

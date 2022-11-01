@@ -2,6 +2,7 @@ import java.util.Locale;
 
 public class Problem10 {
     public static void main(String[] args) {
+
         Locale.setDefault(Locale.US);
 
         int rank = (int) ((Math.random() * 13) + 1);

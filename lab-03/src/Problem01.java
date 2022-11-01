@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Problem01 {
     public static void main(String[] args) {
+
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
         System.out.print("some real number? ");
