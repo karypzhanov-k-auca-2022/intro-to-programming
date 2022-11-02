@@ -10,7 +10,6 @@ public class Problem45 {
         int startSecondClip = scanner.nextInt();
         int endSecondClip = scanner.nextInt();
 
-        System.out.println(endFirstClip <= startSecondClip ||
-                endSecondClip <= startFirstClip ? "NO" : "YES");
+        System.out.println(startSecondClip < endFirstClip && startFirstClip < endSecondClip ? "YES" : "NO");
     }
 }
