@@ -8,8 +8,6 @@ public class Problem03 extends PApplet {
 
     public void settings() {
         fullScreen();
-
-
     }
 
     public void setup() {
