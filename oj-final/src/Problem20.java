@@ -4,15 +4,15 @@ public class Problem20 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numberOfWins = 0;
+        int numberOfWins1 = 0;
 
         while (scanner.hasNext()) {
             if (scanner.next().equals("W")) {
-                numberOfWins += 1;
+                numberOfWins1 += 1;
             }
         }
 
-        switch (numberOfWins) {
+        switch (numberOfWins1) {
             case 5:
             case 6:
                 System.out.println(1);

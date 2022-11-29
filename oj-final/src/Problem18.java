@@ -5,10 +5,10 @@ public class Problem18 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
-        double numberOfTiles = scanner.nextDouble();
+        double numberOfTiles1 = scanner.nextDouble();
         int squareLength = 0;
 
-        while (numberOfTiles >= (squareLength + 1) * (squareLength + 1)) {
+        while (numberOfTiles1 >= (squareLength + 1) * (squareLength + 1)) {
             squareLength += 1;
         }
 
