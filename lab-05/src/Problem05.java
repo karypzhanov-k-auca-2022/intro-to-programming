@@ -2,7 +2,6 @@ import java.util.Locale;
 
 public class Problem05 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         final int NUMBER_OF_PRIMES = 50;
         final int NUMBER_OF_PRIMES_PER_LINE = 10;

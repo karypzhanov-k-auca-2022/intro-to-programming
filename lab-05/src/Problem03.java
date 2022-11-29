@@ -2,7 +2,6 @@ import java.util.Locale;
 
 public class Problem03 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         System.out.println("Multiplication table");
         System.out.print("    ");

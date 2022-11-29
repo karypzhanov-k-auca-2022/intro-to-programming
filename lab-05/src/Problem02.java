@@ -2,7 +2,6 @@ import java.util.Locale;
 
 public class Problem02 {
     public static void main(String[] args) {
-
         Locale.setDefault(Locale.US);
         int sum = 0;
         int number = 0;
