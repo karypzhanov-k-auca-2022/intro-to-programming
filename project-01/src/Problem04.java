@@ -89,11 +89,36 @@ public class Problem04 extends PApplet {
             score += 1;
         }
 
+        if (key == CODED) {
+            if (keyCode == UP) {
+                circleY = circleY - cellSize;
+                if (circleY < cy) {
+                    circleY = circleY + cellSize;
+                }
+            }
+            if (keyCode == DOWN) {
+                circleY = circleY + cellSize;
+                if (circleY > (cy + (cellSize * 12))) {
+                    circleY = circleY - cellSize;
+                }
+            }
+            if (keyCode == LEFT) {
+                circleX = circleX - cellSize;
+                if (circleX < cx) {
+                    circleX = circleX + cellSize;
+                }
+            }
+            if (keyCode == RIGHT) {
+                circleX = circleX + cellSize;
+                if (circleX > (cx + (cellSize * 15))) {
+                    circleX = circleX - cellSize;
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
         PApplet.main("Problem04");
 
     }
-
 }
