@@ -28,5 +28,6 @@ public class Problem20 {
             default:
                 System.out.println(-1);
         }
+
     }
 }

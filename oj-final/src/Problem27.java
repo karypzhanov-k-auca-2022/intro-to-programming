@@ -5,9 +5,11 @@ public class Problem27 {
         Scanner scanner = new Scanner(System.in);
         int throwerNumber = scanner.nextInt();
         int sumOfWays = 0;
-        for (int i = 4; i < throwerNumber+1; i++) {
-            sumOfWays += (i-3)*(i-2)/2;
+
+        for (int i = 4; i < throwerNumber + 1; i++) {
+            sumOfWays += (i - 3) * (i - 2) / 2;
         }
+
         System.out.println(sumOfWays);
     }
 }

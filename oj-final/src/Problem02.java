@@ -13,6 +13,7 @@ public class Problem02 {
             if (i % 2 == 0) {
                 System.out.println(word);
             }
+
         }
     }
 }

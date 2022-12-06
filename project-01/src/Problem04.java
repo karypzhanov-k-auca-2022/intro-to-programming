@@ -48,16 +48,16 @@ public class Problem04 extends PApplet {
         strokeWeight(LINE_WEIGHT);
         noFill();
 
-        float cellSizee = Math.min(width / COLS, height / ROWS) * (1.0f - CELL_GAP);
+        float cellSize = Math.min(width / COLS, height / ROWS) * (1.0f - CELL_GAP);
 
-        float cy = (height - ROWS * cellSizee) / 2.0f;
-        float cx = (width - COLS * cellSizee) / 2.0f;
+        float cy = (height - ROWS * cellSize) / 2.0f;
+        float cx = (width - COLS * cellSize) / 2.0f;
 
         for (int i = 0; i < ROWS; i++) {
             for (int j = 0; j < COLS; j++) {
-                float x = cx + j * cellSizee;
-                float y = cy + i * cellSizee;
-                rect(x, y, cellSizee, cellSizee);
+                float x = cx + j * cellSize;
+                float y = cy + i * cellSize;
+                rect(x, y, cellSize, cellSize);
             }
         }
 
@@ -66,9 +66,9 @@ public class Problem04 extends PApplet {
         rect(0, 0, width, height);
 
         fill(222, 43, 0);
-        circle((float) circleX, (float) circleY, cellSizee - 5);
-        foodX = appleX + (appleKX * cellSizee);
-        foodY = appleY + (appleKY * cellSizee);
+        circle((float) circleX, (float) circleY, cellSize - 5);
+        foodX = appleX + (appleKX * cellSize);
+        foodY = appleY + (appleKY * cellSize);
 
         fill(255, 255, 0);
         frameRate(20);
@@ -84,34 +84,34 @@ public class Problem04 extends PApplet {
         if (circleX == foodX && circleY == foodY) {
             appleKX = (random.nextInt(0, 15));
             appleKY = (random.nextInt(0, 12));
-            foodX = appleX + (appleKX * cellSizee);
-            foodY = appleY + (appleKY * cellSizee);
+            foodX = appleX + (appleKX * cellSize);
+            foodY = appleY + (appleKY * cellSize);
             score += 1;
         }
 
         if (key == CODED) {
             if (keyCode == UP) {
-                circleY = circleY - cellSizee;
+                circleY = circleY - cellSize;
                 if (circleY < cy) {
-                    circleY = circleY + cellSizee;
+                    circleY = circleY + cellSize;
                 }
             }
             if (keyCode == DOWN) {
-                circleY = circleY + cellSizee;
-                if (circleY > (cy + (cellSizee * 12))) {
-                    circleY = circleY - cellSizee;
+                circleY = circleY + cellSize;
+                if (circleY > (cy + (cellSize * 12))) {
+                    circleY = circleY - cellSize;
                 }
             }
             if (keyCode == LEFT) {
-                circleX = circleX - cellSizee;
+                circleX = circleX - cellSize;
                 if (circleX < cx) {
-                    circleX = circleX + cellSizee;
+                    circleX = circleX + cellSize;
                 }
             }
             if (keyCode == RIGHT) {
-                circleX = circleX + cellSizee;
-                if (circleX > (cx + (cellSizee * 15))) {
-                    circleX = circleX - cellSizee;
+                circleX = circleX + cellSize;
+                if (circleX > (cx + (cellSize * 15))) {
+                    circleX = circleX - cellSize;
                 }
             }
         }

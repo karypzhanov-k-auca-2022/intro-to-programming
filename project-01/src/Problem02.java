@@ -19,15 +19,15 @@ public class Problem02 extends PApplet {
 
         fill(255, 0, 0);
         textSize(dx1);
-        text("Java Slogan:", width * 2 / 5f, height / 4f);
+        text("Java Slogan:", width / 2f, height / 4f);
 
         fill(0, 255, 0);
         textSize(dx2);
-        text("Write once,", width * 2 / 5f, height / 2f);
+        text("Write once,", width / 2f, height / 2f);
 
         fill(0, 0, 255);
         textSize(dx3);
-        text("run anywhere!", width * 2 / 5f, 3 * height / 4f);
+        text("run anywhere!", width / 2f, 3 * height / 4f);
 
         for (int a = 0; a < 100000; a++) {
             if (dx3 == 60) {

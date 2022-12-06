@@ -1,31 +1,22 @@
-import java.util.*;
+
 
 public class Problem08 {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
+        System.out.println("Multiplication table");
+        System.out.print("    ");
+        for (int j = 1; j <= 9; ++j)
+            System.out.print("   " + j);
 
-        System.out.println("Number of tests?");
-        int numOfTests = scanner.nextInt();
-        int numOfCorrectAns = 0;
-        int i = 0;
+        System.out.printf("%n------------------------------------------%n");
 
-        while (i < numOfTests) {
-            int num1 = -50 + random.nextInt(101);
-            int num2 = -50 + random.nextInt(101);
+        for (int i = 1; i <= 9; ++i) {
+            System.out.print(i + " | ");
 
-            System.out.printf("%d + %d = ", num1, num2);
-            int answer = scanner.nextInt();
-
-            if (answer == num1 + num2) {
-                ++numOfCorrectAns;
+            for (int j = 1; j <= 9; ++j) {
+                System.out.printf("%4d", i * j);
             }
 
-            ++i;
+            System.out.println();
         }
-
-        System.out.println("Number of correct answers: " + numOfCorrectAns);
-        System.out.println("Number of incorrect answers: " + (numOfTests - numOfCorrectAns));
     }
 }

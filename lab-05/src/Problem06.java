@@ -1,25 +1,17 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Problem06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number;
+        int numbers;
         int sum = 0;
-        int count = 0;
 
         do {
-            number = scanner.nextInt();
-            if (number == 0) {
-                break;
-            }
-            count++;
-            sum += number;
-        } while (true);
+            System.out.print("Enter an integer (the input ends if it is 0): ");
+            numbers = scanner.nextInt();
+            sum += numbers;
+        } while (numbers != 0);
 
-        if (sum != 0) {
-            System.out.println("The arithmetic mean is " + sum / 1.0 / count);
-        } else {
-            System.out.println("Nothing to calculate");
-        }
+        System.out.println("The sum is " + sum);
     }
 }

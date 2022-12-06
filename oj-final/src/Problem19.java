@@ -11,6 +11,7 @@ public class Problem19 {
         while ((x * n) % m != 1 && n < m) {
             n++;
         }
+
         System.out.println(n < m ? n : "No such integer exists.");
     }
 }

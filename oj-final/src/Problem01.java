@@ -13,6 +13,7 @@ public class Problem01 {
             if (symbol == 'e') {
                 System.out.print(symbol);
             }
+
             System.out.print(symbol);
         }
     }

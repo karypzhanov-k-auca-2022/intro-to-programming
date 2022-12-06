@@ -1,29 +1,33 @@
-import java.util.Locale;
-import java.util.Scanner;
+import processing.core.*;
+import java.util.Random;
 
-public class Problem04 {
-    public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String word = scanner.next();
+public class Problem04 extends PApplet {
+    Random random = new Random();
 
-        int low = 0;
-        int high = word.length() - 1;
-        boolean isPalindrome = true;
+    public void settings() {
+        fullScreen();
+    }
 
-        while (low < high) {
-            if (word.charAt(low) != word.charAt(high)) {
-                isPalindrome = false;
-                break;
-            }
-            ++low;
-            --high;
+    public void setup() {
+        background(0);
+    }
+
+    public void draw() {
+        for (int i = 0; i < 1; i++) {
+            int red = random.nextInt(255);
+            int green = random.nextInt(255);
+            int blue = random.nextInt(255);
+
+            int radius = random.nextInt(0, 50);
+            int x = random.nextInt(0, width);
+            int y = random.nextInt(0, height);
+
+            fill(red, green, blue);
+            circle(x, y, radius);
         }
+    }
 
-        if (isPalindrome)
-            System.out.println(word + " is a palindrome");
-        else
-            System.out.println(word + " is not a palindrome");
+    public static void main(String[] args) {
+        PApplet.main("Problem09");
     }
 }

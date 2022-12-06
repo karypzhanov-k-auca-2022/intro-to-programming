@@ -1,19 +1,18 @@
-import java.util.Locale;
+import java.util.Scanner;
 
 public class Problem02 {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        int sum = 0;
-        int number = 0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Integer? ");
+        int digits = scanner.nextInt();
 
-        while (number < 20) {
-            number++;
-            sum += number;
-            if (sum >= 100)
-                break;
+        int sum = 0;
+
+        while (digits != 0) {
+            sum += digits % 10;
+            digits /= 10;
         }
 
-        System.out.println("The number is " + number);
-        System.out.println("The sum is " + sum);
+        System.out.println("The sum of all digits is " + sum);
     }
 }

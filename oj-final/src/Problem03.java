@@ -16,6 +16,7 @@ public class Problem03 {
             ++nWalk;
             sumOfNumbers += (double) number;
         }
+
         System.out.println(sumOfNumbers / nWalk);
     }
 }

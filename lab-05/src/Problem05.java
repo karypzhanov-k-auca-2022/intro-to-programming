@@ -1,35 +1,32 @@
-import java.util.Locale;
+import processing.core.*;
 
-public class Problem05 {
-    public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        final int NUMBER_OF_PRIMES = 50;
-        final int NUMBER_OF_PRIMES_PER_LINE = 10;
+public class Problem05 extends PApplet {
 
-        int count = 0;
-        int number = 2;
+    public void settings() {
+        fullScreen();
+    }
 
-        System.out.println("The first 50 prime numbers are ");
-        while (count < NUMBER_OF_PRIMES) {
-            boolean isPrime = true;
+    public void setup() {
 
-            for (int divisor = 2; divisor <= number / 2; ++divisor) {
-                if (number % divisor == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
+    }
 
-            if (isPrime) {
-                ++count;
+    public void draw() {
+        background(0, 0, 0);
+        noStroke();
+        int radius = 1500;
+        int r = 0;
 
-                if (count % NUMBER_OF_PRIMES_PER_LINE == 0) {
-                    System.out.println(number);
-                } else
-                    System.out.print(number + " ");
-            }
+        for (int i = 0; i < 15; i++) {
 
-            ++number;
+            fill(r, 0, 0);
+            circle(width / 2f, height / 2f, radius);
+            radius -= 100;
+            r += 15;
         }
     }
+
+    public static void main(String[] args) {
+        PApplet.main("Problem011");
+    }
+
 }
