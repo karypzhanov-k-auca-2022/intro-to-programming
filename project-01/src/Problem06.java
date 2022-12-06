@@ -21,12 +21,12 @@ public class Problem06 extends PApplet {
         pushMatrix();
         translate(width / 2f, height / 2f);
         rotate(radians(r));
+
         //sun
         fill(255,255,0);
         ellipse(0,0,150,150);
 
         //earth
-
         fill(0,255,100);
         ellipse(EARTH_X, EARTH_Y, 50, 50);
         pushMatrix();
@@ -50,7 +50,7 @@ public class Problem06 extends PApplet {
         rect(width/1.2f,height/6f,180,40);
         textSize(70);
         fill (255);
-        text("Earth", width/ 1.3f, height/ 6f);
+
 
         fill(0,0,180);
         stroke(255);
@@ -64,6 +64,9 @@ public class Problem06 extends PApplet {
         stroke(255);
         rect(width/1.2f, height/24f,180,40 );
 
+        fill(255);
+        textSize(20);
+        text("Venus", width / 1.2f + 90 - textWidth("Venus") / 2f, height / 6f + 30);
 
 
 
